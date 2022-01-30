@@ -170,8 +170,8 @@ opinion_from_personality = {
 			NOR = {
 				is_same_species = FROM
 				is_subspecies = FROM
+				is_same_species_class = FROM
 			}			
-			NOT = { is_same_species_class = FROM }			
 		}	
 		modifier = {
 			add = -25
@@ -179,8 +179,8 @@ opinion_from_personality = {
 			NOR = {
 				is_same_species = FROM
 				is_subspecies = FROM
+				is_same_species_class = FROM
 			}			
-			NOT = { is_same_species_class = FROM }			
 		}		
 		modifier = {
 			add = -10
@@ -197,8 +197,8 @@ opinion_from_personality = {
 			NOR = {
 				is_same_species = FROM
 				is_subspecies = FROM
-			}			
-			NOT = { is_same_species_class = FROM }
+				is_same_species_class = FROM
+			}
 			NOT = {
 				FROM = { has_ethic = "ethic_spiritualist" }
 				FROM = { has_ethic = "ethic_fanatic_spiritualist" }
