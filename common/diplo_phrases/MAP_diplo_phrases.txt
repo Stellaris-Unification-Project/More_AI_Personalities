@@ -3453,16 +3453,10 @@ greetings = {
 				is_neutral_to = FROM
 				is_threatened_to = FROM
 			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_spiritualist = yes
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}
@@ -3483,15 +3477,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_materialist = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 	}
@@ -3512,15 +3500,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_pacifist = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -3541,15 +3523,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_militarist = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
+				is_militarist = yes
 			}
 		}
 	}
@@ -3570,15 +3546,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 	}
@@ -3599,15 +3569,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
+			is_xenophile = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 	}
@@ -3628,15 +3592,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_authoritarian = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-				}
+				is_authoritarian = yes
 			}
 		}
 	}
@@ -3657,15 +3615,9 @@ greetings = {
 				is_threatened_to = FROM
 			}
 			NOT = { is_at_war_with = FROM }
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_egalitarian = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
+				is_egalitarian = yes
 			}
 		}
 	}
@@ -8070,10 +8022,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}
@@ -8086,10 +8035,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 	}
@@ -8102,10 +8048,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
+				is_militarist = yes
 			}
 		}
 	}
@@ -8118,10 +8061,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -8134,10 +8074,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 	}
@@ -8150,10 +8087,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 	}
@@ -8166,10 +8100,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-				}
+				is_authoritarian = yes
 			}
 		}
 	}
@@ -8182,10 +8113,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
+				is_egalitarian = yes
 			}
 		}
 	}
@@ -10504,10 +10432,8 @@ greetings = {
 			}
 			FROM = {
 				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
+					is_authoritarian = yes
+					is_militarist = yes
 				}
 			}
 		}
@@ -10525,10 +10451,8 @@ greetings = {
 			}
 			FROM = {
 				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
+					is_egalitarian = yes
+					is_pacifist = yes
 				}
 			}
 		}
@@ -10545,10 +10469,7 @@ greetings = {
 				is_unfriendly_to = FROM
 			}
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 	}
@@ -10564,10 +10485,7 @@ greetings = {
 				is_unfriendly_to = FROM
 			}
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}
@@ -10583,10 +10501,7 @@ greetings = {
 				is_unfriendly_to = FROM
 			}
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 	}
@@ -10602,10 +10517,7 @@ greetings = {
 				is_unfriendly_to = FROM
 			}
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 	}
@@ -11246,10 +11158,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
+				is_militarist = yes
 			}
 		}
 	}
@@ -11262,10 +11171,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -11278,10 +11184,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}	
@@ -11294,10 +11197,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 	}	
@@ -11310,10 +11210,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-				}
+				is_authoritarian = yes
 			}
 		}
 	}	
@@ -11326,10 +11223,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
+				is_egalitarian = yes
 			}
 		}
 	}
@@ -11342,10 +11236,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 	}	
@@ -11358,10 +11249,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 	}
@@ -11808,10 +11696,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}			
+				is_spiritualist = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11829,10 +11714,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}			
+				is_materialist = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11850,10 +11732,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}			
+				is_pacifist = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11871,10 +11750,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}			
+				is_militarist = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11892,10 +11768,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}			
+				is_xenophobe = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11913,10 +11786,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}			
+				is_xenophile = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11934,10 +11804,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-				}			
+				is_authoritarian = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11955,10 +11822,7 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}			
+				is_egalitarian = yes			
 			}			
 			has_policy_flag = slavery_allowed
 		}
@@ -11976,8 +11840,10 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				NOT = { has_trait = "trait_repugnant" }
-				NOT = { has_trait = "trait_solitary" }
+				NOR = {
+					has_trait = "trait_repugnant"
+					has_trait = "trait_solitary"
+				}
 				OR = {
 					has_trait = "trait_charismatic"
 					has_trait = "trait_deviants"
@@ -12022,8 +11888,10 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				NOT = { has_trait = "trait_nonadaptive" }
-				NOT = { has_trait = "trait_weak" }
+				NOR = {
+					has_trait = "trait_nonadaptive"
+					has_trait = "trait_weak"
+				}
 				OR = {
 					has_trait = "trait_strong"
 					has_trait = "trait_very_strong"
@@ -12094,8 +11962,10 @@ greetings = {
 			}
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				NOT = { has_trait = "trait_venerable" }
-				NOT = { has_trait = "trait_enduring" }
+				NOR = {
+					has_trait = "trait_venerable"
+					has_trait = "trait_enduring"
+				}
 				has_trait = "trait_fleeting"			
 			}			
 			has_policy_flag = slavery_allowed
@@ -12613,10 +12483,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}
@@ -12629,10 +12496,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 	}
@@ -12645,10 +12509,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 	}
@@ -12661,10 +12522,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 	}
@@ -12677,10 +12535,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}
@@ -12693,10 +12548,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -12709,10 +12561,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-				}
+				is_authoritarian = yes
 			}
 		}
 	}
@@ -12725,10 +12574,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
+				is_egalitarian = yes
 			}
 		}
 	}	
@@ -12886,14 +12732,8 @@ greetings = {
 				OR = {
 					has_civic = "civic_fanatic_purifiers"
 					AND = {
-						OR = {
-							has_ethic = ethic_militarist
-							has_ethic = ethic_fanatic_militarist
-						}
-						OR = {
-							has_ethic = ethic_xenophobe
-							has_ethic = ethic_fanatic_xenophobe
-						}
+						is_militarist = yes
+						is_xenophobe = yes
 					}
 				}
 			}
@@ -12924,8 +12764,7 @@ greetings = {
 				OR = {
 					has_trait = trait_repugnant
 					has_trait = trait_solitary
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
+					is_xenophobe = yes
 				}
 				NOT = { has_trait = trait_charismatic }
 				NOT = { has_trait = trait_communal }
@@ -13144,10 +12983,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 		}
 	}		
@@ -13160,10 +12996,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_materialist
-					has_ethic = ethic_fanatic_materialist
-				}
+				is_materialist = yes
 			}
 		}
 	}			
@@ -13176,10 +13009,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
+				is_militarist = yes
 			}
 		}
 	}			
@@ -13192,10 +13022,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}			
@@ -13208,10 +13035,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
-				}
+				is_xenophile = yes
 			}
 		}
 	}			
@@ -13224,10 +13048,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 		}
 	}			
@@ -13240,10 +13061,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_authoritarian
-					has_ethic = ethic_fanatic_authoritarian
-				}
+				is_authoritarian = yes
 			}
 		}
 	}			
@@ -13256,10 +13074,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_at_war = yes
 			FROM = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
+				is_egalitarian = yes
 			}
 		}
 	}			
@@ -17691,8 +17506,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17709,8 +17523,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17727,8 +17540,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17745,8 +17557,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17763,8 +17574,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17786,8 +17596,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17809,8 +17618,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17832,8 +17640,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17857,8 +17664,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17882,8 +17688,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -17907,8 +17712,7 @@ greetings = {
 			NOR = {
 				has_authority = auth_machine_intelligence
 				is_species_class = ROBOT
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 			}
 			from = {
 				has_authority = auth_machine_intelligence
@@ -18489,10 +18293,7 @@ greetings = {
 			has_ai_personality = map_xenial_merrymakers
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}			
+			is_spiritualist = yes			
 		}
 	}
 	XM_NEUTRAL_GREETING_12 = {
@@ -18503,10 +18304,7 @@ greetings = {
 			has_ai_personality = map_xenial_merrymakers
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_spiritualist = yes
 		}
 	}
 	XM_NEUTRAL_GREETING_13 = {
@@ -18517,10 +18315,7 @@ greetings = {
 			has_ai_personality = map_xenial_merrymakers
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_materialist = yes
 		}
 	}
 	XM_NEUTRAL_GREETING_14 = {
@@ -18531,10 +18326,7 @@ greetings = {
 			has_ai_personality = map_xenial_merrymakers
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_materialist = yes
 		}
 	}
 	XM_THREATENED_GREETING_01 = {
@@ -19136,10 +18928,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -19152,10 +18941,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -19168,10 +18954,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -19184,10 +18967,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -19200,10 +18980,7 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			#is_neutral_to = FROM
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
